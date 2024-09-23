@@ -1,3 +1,9 @@
+//
+//  ContentView.swift
+//  Wakey
+//
+//  Created by Pratik Ray on 22/09/24.
+//
 import SwiftUI
 import IOKit.pwr_mgt
 
@@ -56,7 +62,7 @@ struct ContentView: View {
             AnimatedBackground()
             
             VStack(spacing: 40) {
-                Text("Luminary")
+                Text("Wakey")
                     .font(.system(size: 36, weight: .ultraLight, design: .rounded))
                     .foregroundColor(.white)
                     .padding(.top, 30)
@@ -206,3 +212,4 @@ extension Color {
 #Preview {
     ContentView()
 }
+
